@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="emoji.css">
+    <title>Emoji Reaction</title>
+</head>
+
+<body>
+
+
+
+    <h4 class="text-center pt-4">Emoji Reaction</h4>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="show-emoji-postion" id="show-emoji-hand">
+                </div>
+                <div class="show-emoji-postion" id="show-emoji">
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="social-buttons">
+                    <button class="social-button facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+                    <button class="social-button twitter">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+                    <button class="social-button instagram">
+                        <i class="fab fa-instagram"></i>
+                    </button>
+                    <button class="social-button tiktok">
+                        <i class="fab fa-tiktok"></i>
+                    </button>
+                    <button class="social-button linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </button>
+                    <button class="social-button snapchat">
+                        <i class="fab fa-snapchat-ghost"></i>
+                    </button>
+                    <button class="social-button pinterest">
+                        <i class="fab fa-pinterest"></i>
+                    </button>
+                    <button class="social-button gmail">
+                        <i class="fab fa-google"></i>
+                    </button>
+                    <button class="social-button reddit">
+                        <i class="fab fa-reddit"></i>
+                    </button>
+                    <button class="social-button youtube">
+                        <i class="fab fa-youtube"></i>
+                    </button>
+                    <button class="social-button whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </button>
+                    <button class="social-button telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </button>
+                    <button class="social-button twitch">
+                        <i class="fab fa-twitch"></i>
+                    </button>
+                    <button class="social-button tumblr">
+                        <i class="fab fa-tumblr"></i>
+                    </button>
+                    <button class="social-button wechat">
+                        <i class="fab fa-weixin"></i>
+                    </button>
+                    <button class="social-button discord">
+                        <i class="fab fa-discord"></i>
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="fixed-bottom text-center py-4">
+            <div class="emoji-reaction-option" id="toggle-emoji-option">
+                <button class="emoji-option" onclick="getSetEmoji(this.value, false)" value="&#128079">&#128079</button>
+                <button class="emoji-option" onclick="getSetEmoji(this.value, false)" value="&#128077">&#128077</button>
+                <button class="emoji-option" onclick="getSetEmoji(this.value, false)"
+                    value="&#10084;&#65039;">&#10084;&#65039;</button>
+                <button class="emoji-option" onclick="getSetEmoji(this.value, false)" value="&#128514">&#128514</button>
+                <button class="emoji-option" onclick="getSetEmoji(this.value, false)" value="&#128550">&#128550</button>
+                <button class="emoji-option" onclick="getSetEmoji(this.value, false)" value="&#127881">&#127881</button>
+                <br>
+                <button class="emoji-option raise-hand" onclick="getSetEmoji(this.value, true)" value="&#9995">&#9995
+                    <small>Raise Hand</small></button>
+            </div>
+            <button type="button" class="emoji-reaction" id="emoji-reaction-button" onclick="showEmojiOption()">
+                &#128578
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS file link -->
+    <script src="emoji.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+.emoji-reaction-option {
+  width: fit-content;
+  padding: 8px;
+  background-color: #8080802b;
+  margin: 2px auto;
+  font-size: x-large;
+}
+
+.emoji-reaction {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-size: 36px;
+  background-color: #80808054 !important;
+  height: 60px;
+  width: 60px;
+}
+
+.emoji-reaction:hover {
+  background-color: #8080802b !important;
+}
+
+button.emoji-option {
+  border: none;
+  background-color: #ffffff00;
+  margin: 0 6px;
+  padding: 0;
+  font-size: larger;
+}
+
+.raise-hand {
+  background-color: #80808036 !important;
+  padding: 4px 25% !important;
+  font-size: medium !important;
+  border-radius: 8px;
+  margin-top: 4px !important;
+}
+.raise-hand:hover {
+  background-color: #878484e0 !important;
+}
+
+.show-emoji-postion {
+  font-size: 36px;
+  width: fit-content;
+  display: inline-block;
+  padding: 0 12px;
+}
+#toggle-emoji-option {
+  display: none;
+}
+#show-emoji {
+  display: none;
+}
+#show-emoji-hand {
+  display: none;
+}
+
+/* ------------------------------------------------ */
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the button circular */
+  margin: 10px;
+  border: none;
+  cursor: pointer !important;
+  box-shadow: 0px 2px 4px black;
+}
+
+/* Styles for each social button */
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.instagram {
+  background-color: #e4405f;
+}
+.linkedin {
+  background-color: #0077b5;
+}
+.snapchat {
+  background-color: #fffc00;
+}
+.pinterest {
+  background-color: #bd081c;
+}
+.tiktok {
+  background-color: #000000;
+  color: white;
+} /* Adjust the icon color */
+.reddit {
+  background-color: #ff4500;
+}
+.youtube {
+  background-color: #ff0000;
+}
+.gmail {
+  background-color: #db4437;
+}
+.whatsapp {
+  background-color: #25d366;
+}
+.telegram {
+  background-color: #0088cc;
+}
+.twitch {
+  background-color: #6441a4;
+}
+.tumblr {
+  background-color: #35465c;
+  color: white;
+} /* Adjust the icon color */
+.wechat {
+  background-color: #7bb32e;
+}
+.discord {
+  background-color: #5865f2;
+}
+
+.social-button i {
+  color: white; /* Color of the social media icons */
+  font-size: 20px; /* Adjust the size of the icon */
+}
